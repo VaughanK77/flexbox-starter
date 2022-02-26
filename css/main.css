@@ -92,7 +92,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
   width: 100%;
 }
@@ -102,7 +102,7 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: white;
 }
 
 header,
@@ -110,12 +110,16 @@ footer {
   background-color: #222;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 main {
-  background-color: #ccc;
+  background-color: black;
   height: 250px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 header,
@@ -137,15 +141,28 @@ main {
 .flex-items {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: black;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 
+header h1 {
+        font-family: 'Lora', sans-serif;
+        font-size: 3em;
+}
+
+main p {
+    font-size: 1.35em;
+}
+
+span {
+    font-size: 1.5em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
